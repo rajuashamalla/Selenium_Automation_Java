@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
  * 3) validate title should be"Google"
  * 4) close browser
  */
-
 public class FirstTestCase {
 
 	public static void main(String[] args) {
@@ -33,10 +32,7 @@ public class FirstTestCase {
 			}
 			//4) close browser
 			//driver.close();
-			driver.quit();
-			
-			
-		
+			driver.quit();			
 	}
 
 }
