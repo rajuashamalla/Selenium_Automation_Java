@@ -23,13 +23,13 @@ public class SelectDropdown {
 		
 		//Select option from the dropdown
 		
-//		drCountry.selectByVisibleText("France");
-//		drCountry.selectByValue("uk");
+//	drCountry.selectByVisibleText("France");
+		drCountry.selectByValue("india");
 //		drCountry.selectByIndex(9);
 		
 		//capture options from the dropdown
-		List<WebElement> options=drCountry.getOptions();
-		System.out.println("Number of options in a Dropdown:" + options.size());
+//		List<WebElement> options=drCountry.getOptions();
+//		System.out.println("Number of options in a Dropdown:" + options.size());
 		
 		//printing the options
 /*		for(int i=0;i<options.size();i++)
@@ -38,10 +38,10 @@ public class SelectDropdown {
 		}
 */	
 		//enhanced for loop
-		for(WebElement op:options)
-		{
-			System.out.println(op.getText());
+//		for(WebElement op:options)
+//		{
+//			System.out.println(op.getText());
 		}
 	}
 
-}
+//}
