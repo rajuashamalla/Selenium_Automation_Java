@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-26T07:46:56 IST" name="groupingsuite" finished-at="2025-08-26T07:46:57 IST" duration-ms="96">
+  <suite started-at="2025-08-27T14:32:08 IST" name="Default suite" finished-at="2025-08-27T14:32:17 IST" duration-ms="8712">
     <groups>
-      <group name="functional">
-        <method signature="PaymentTests.paymentinrupees()[pri:1, instance:day17.PaymentTests@5af3afd9]" name="paymentinrupees" class="day17.PaymentTests"/>
-        <method signature="PaymentTests.paymentindollors()[pri:2, instance:day17.PaymentTests@5af3afd9]" name="paymentindollors" class="day17.PaymentTests"/>
-      </group> <!-- functional -->
-      <group name="regression">
-        <method signature="PaymentTests.paymentinrupees()[pri:1, instance:day17.PaymentTests@5af3afd9]" name="paymentinrupees" class="day17.PaymentTests"/>
-        <method signature="PaymentTests.paymentindollors()[pri:2, instance:day17.PaymentTests@5af3afd9]" name="paymentindollors" class="day17.PaymentTests"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="PaymentTests.paymentinrupees()[pri:1, instance:day17.PaymentTests@5af3afd9]" name="paymentinrupees" class="day17.PaymentTests"/>
-        <method signature="PaymentTests.paymentindollors()[pri:2, instance:day17.PaymentTests@5af3afd9]" name="paymentindollors" class="day17.PaymentTests"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-08-26T07:46:56 IST" name="groupingtests" finished-at="2025-08-26T07:46:57 IST" duration-ms="96">
-      <class name="day17.PaymentTests">
-        <test-method signature="paymentinrupees()[pri:1, instance:day17.PaymentTests@5af3afd9]" started-at="2025-08-26T07:46:57 IST" name="paymentinrupees" finished-at="2025-08-26T07:46:57 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-08-27T14:32:08 IST" name="Default test" finished-at="2025-08-27T14:32:17 IST" duration-ms="8712">
+      <class name="day18.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day18.LoginTest@436813f3]" started-at="2025-08-27T14:32:08 IST" name="setup" finished-at="2025-08-27T14:32:15 IST" duration-ms="6288" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentinrupees -->
-        <test-method signature="paymentindollors()[pri:2, instance:day17.PaymentTests@5af3afd9]" started-at="2025-08-26T07:46:57 IST" name="paymentindollors" finished-at="2025-08-26T07:46:57 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin()[pri:0, instance:day18.LoginTest@436813f3]" started-at="2025-08-27T14:32:15 IST" name="testLogin" finished-at="2025-08-27T14:32:17 IST" duration-ms="2147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentindollors -->
-      </class> <!-- day17.PaymentTests -->
-    </test> <!-- groupingtests -->
-  </suite> <!-- groupingsuite -->
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day18.LoginTest@436813f3]" started-at="2025-08-27T14:32:17 IST" name="tearDown" finished-at="2025-08-27T14:32:17 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day18.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
